@@ -2,13 +2,13 @@
 # give you information about the school file.
 
 if [ -e "school" ]
-then
+   then 
 	 echo "school file exists"
 
          if [ -s "school" ]
-	 hen
+	 then
 	          echo "school file is not empty"
-	  else
+	  then
 	          echo "school file is empty"
 	  fi
 
